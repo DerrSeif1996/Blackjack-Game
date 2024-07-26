@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-image: url("https://merriam-webster.com/assets/mw/images/gallery/gal-home-edpick-lg/verdant-1960-840e9b28c26a95231a6dd71f6fd6499b@1x.jpg");
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+
+
+
+#title{
+
+color: goldenrod ;
+
+
+}
+
+#message-el{
+    
+    font-style: italic;
+}
+
+#startbtn{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    
+}
+#newbtn{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+
+}
