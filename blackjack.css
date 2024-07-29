@@ -47,19 +47,31 @@ main {
     text-align: center;
 }
 
+#cards-container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-around; /* Space out the cards sections */
+    align-items: flex-start; /* Align items at the start of the container */
+    margin-bottom: 20px; /* Space below the cards container */
+}
+
 #player-cards, #bot-cards {
-    margin-bottom: 20px;
+    flex: 1; /* Make both cards sections take equal space */
+    margin: 0 10px; /* Space between the cards sections */
+    background-color: #34495e; /* Slightly lighter background */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside each card section */
+    text-align: center; /* Center the text */
 }
 
 #player-cards p, #bot-cards p {
-    font-size: 1rem;
-    margin-bottom: 5px;
+    margin: 5px 0; /* Space between paragraphs */
 }
+
 
 /* Button Styles */
 button {
     font-size: 1rem;
-    padding: 10px 20px;
+    padding: 10px 36px;
     margin: 5px;
     border: none;
     border-radius: 5px;

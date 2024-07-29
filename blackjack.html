@@ -13,14 +13,17 @@
     <main>
         <section id="game-info">
             <p id="message-el" aria-live="polite">Want to play a round?</p>
-            <div id="player-cards">
-                <p id="cardEl">Your Cards:</p>
-                <p id="sumEl">Sum: 0</p>
+            <div id="cards-container">
+                <div id="player-cards">
+                    <p id="cardEl">Your Cards:</p>
+                    <p id="sumEl">Sum: 0</p>
+                </div>
+                <div id="bot-cards">
+                    <p id="cardElb">Bot Cards:</p>
+                    <p id="sumElb">Bot Sum: 0</p>
+                </div>
             </div>
-            <div id="bot-cards">
-                <p id="cardElb">Bot Cards:</p>
-                <p id="sumElb">Bot Sum: 0</p>
-            </div>
+            
         </section>
         <section id="controls">
             <button id="startbtn" onclick="startGame()">Start The Game</button>
