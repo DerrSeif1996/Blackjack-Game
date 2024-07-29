@@ -4,38 +4,34 @@
     <link rel="stylesheet" href="blackjack.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blackjack Game</title>
 </head>
 <body>
-    <div>
-        <div>
-            <h1 id="title">BlackJack</h1>
-        </div>
-        <div>
-            <div>
-                <p id="message-el">Want to play a round?</p>
-            </div>
-            <div>
+    <header>
+        <h1 id="title">BlackJack</h1>
+    </header>
+    <main>
+        <section id="game-info">
+            <p id="message-el" aria-live="polite">Want to play a round?</p>
+            <div id="player-cards">
                 <p id="cardEl">Your Cards:</p>
-                <p id="cardElb">Bot Cards:</p>
-            </div>
-            <div>
                 <p id="sumEl">Sum: 0</p>
+            </div>
+            <div id="bot-cards">
+                <p id="cardElb">Bot Cards:</p>
                 <p id="sumElb">Bot Sum: 0</p>
             </div>
-        </div>
-        <div>
-            <button id="startbtn" onclick="startGame()">Start The Game</button> <br>
-            <button id="newbtn" onclick="newCard()">NEW CARD</button><br>
-            <button id="endround" onclick="endround()">End The Round</button>
-        </div>
-       
-    </div>
-    <div>
-        <p id="player"></p>
-        <p id="bot"></p>
-    </div>
-    
+        </section>
+        <section id="controls">
+            <button id="startbtn" onclick="startGame()">Start The Game</button>
+            <button id="newbtn" onclick="newCard()">NEW CARD</button>
+            <button id="endround" onclick="endRound()">End The Round</button>
+        </section>
+        <section id="scoreboard">
+            <p id="player"></p>
+            <p id="bot"></p>
+        </section>
+    </main>
     <script src="blackjack.js"></script>
 </body>
 </html>
